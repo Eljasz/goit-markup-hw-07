@@ -311,10 +311,10 @@ header {
 }
 
 /* фото-секция */
-.section.work-section {
+.section--zero-padding {
   padding-top: 0;
 }
-.work-section-title {
+.section__title--mb-fifty {
   margin-bottom: 50px;
 }
 img {
@@ -322,20 +322,20 @@ img {
   height: auto;
   display: block;
 }
-.img-list {
+.work__list {
   display: flex;
 }
-.img-item {
+.work__item {
   width: 370px;
   margin-right: 30px;
 }
-.img-item:nth-child(3n) {
+.work__item:nth-child(3n) {
   margin-right: 0;
 }
-.work-container {
+.work__img-container {
   position: relative;
 }
-.work-description-title {
+.work-description__title {
   bottom: 0px;
   position: absolute;
 

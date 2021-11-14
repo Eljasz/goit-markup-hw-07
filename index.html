@@ -385,57 +385,61 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="join-first">
-          <a class="logo" href="#/"
-            >Web<span class="logo-color-white">Studio</span></a
+      <div class="container container--footer-flex">
+        <div>
+          <a class="logo logo--footer-flex" href="#/"
+            >Web<span class="logo__footer-container">Studio</span></a
           >
           <address class="address">
-            <ul class="auth-footer">
-              <li class="address-item">
-                <a href="г.Киев,пр-т Леси Украинки,26" class="white-link"
+            <ul class="address__footer">
+              <li class="address__item">
+                <a
+                  href="г.Киев,пр-т Леси Украинки,26"
+                  class="address__link-white"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address-item">
-                <a href="mailto:info@example.com" class="link"
+              <li class="address__item">
+                <a href="mailto:info@example.com" class="address__link"
                   >info@example.com</a
                 >
               </li>
-              <li class="address-item">
-                <a href="tel:+380991111111" class="link">+380991111111</a>
+              <li class="address__item">
+                <a href="tel:+380991111111" class="address__link"
+                  >+380991111111</a
+                >
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="join-second">
-          <h3 class="join-title">Присоединяйтесь</h3>
-          <ul class="join-list">
-            <li class="join-item">
-              <a href="" class="join-link">
-                <svg class="join-icon" width="20" height="20">
+        <div class="join">
+          <h3 class="join__title">Присоединяйтесь</h3>
+          <ul class="join__list">
+            <li class="join__item">
+              <a href="" class="join__link">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
-                <svg class="join-icon" width="20" height="20">
+            <li class="join__item">
+              <a href="" class="join__link">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
-                <svg class="join-icon" width="20" height="20">
+            <li class="join__item">
+              <a href="" class="join__link">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a href="" class="join-link">
-                <svg class="join-icon" width="20" height="20">
+            <li class="join__item">
+              <a href="" class="join__link">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -444,13 +448,18 @@
         </div>
 
         <form class="form-footer">
-          <label class="footer-label"
+          <label class="form-footer__label"
             >Подпишитесь на рассылку
-            <input type="email" name="email" placeholder="E-mail" />
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="form-footer__input"
+            />
           </label>
-          <button type="submit" class="button-footer-form">
+          <button type="submit" class="form-footer__button">
             Подписаться
-            <svg width="24" height="24" class="icon-footer-form">
+            <svg width="24" height="24" class="form-footer__icon">
               <use href="./img/sprite.svg.svg#icon-telegram"></use>
             </svg>
           </button>

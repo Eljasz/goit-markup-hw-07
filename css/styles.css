@@ -73,7 +73,7 @@ body {
 header {
   border-bottom: 1px solid #ececec;
 }
-.container_header-flex {
+.container_header--flex {
   display: flex;
   align-items: center;
 }
@@ -124,7 +124,7 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav__link_current {
+.site-nav__link--current {
   color: var(--akcent-color);
 }
 
@@ -133,7 +133,7 @@ header {
   color: var(--akcent-color);
 }
 
-.site-nav__link_current::after {
+.site-nav__link--current::after {
   border-radius: 2px;
   left: 0;
   bottom: 0;
@@ -251,8 +251,8 @@ header {
   color: var(--background-color);
   background-color: var(--akcent-color);
 }
-.hero__button_animation:hover,
-.hero__button_animation:focus {
+.button--active:hover,
+.button--active:focus {
   animation-name: changeBgColor;
   animation-duration: 3000ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

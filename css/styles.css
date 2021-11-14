@@ -198,6 +198,19 @@ header {
   text-align: Center;
   color: var(--title-text-color);
 }
+.section__title--visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Герой */
 .hero {
   padding: 200px 0;
@@ -232,7 +245,7 @@ header {
   color: var(--background-color);
 }
 /* кнопка */
-.hero__button {
+.button {
   border: transparent;
   min-width: 200px;
   margin: 0 auto;
@@ -259,10 +272,18 @@ header {
   animation-iteration-count: infinite;
 }
 /* преимущества*/
-.feature-section {
+.section--outline {
   outline: 2px solid white;
 }
-.feature-title {
+.feature {
+  justify-items: baseline;
+  flex-wrap: wrap;
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.feature__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -271,22 +292,14 @@ header {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.section .feature-list {
-  justify-items: baseline;
-  flex-wrap: wrap;
-  display: flex;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-}
-.feature-list .feature-item {
+.feature__item {
   margin-right: 30px;
   width: 270px;
 }
-.feature-list .feature-item:nth-child(4n) {
+.feature__item:nth-child(4n) {
   margin-right: 0;
 }
-.technik {
+.feature__icon {
   display: flex;
   justify-content: center;
   align-items: center;

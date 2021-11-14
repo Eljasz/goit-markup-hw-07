@@ -466,49 +466,51 @@
         </form>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidde" data-modal>
       <div class="modal">
-        <button class="button-close-modal" data-modal-close>
-          <svg class="modal-icon" width="11" hight="11">
+        <button class="modal__button-close" data-modal-close>
+          <svg class="modal__icon" width="11" hight="11">
             <use href="./img/sprite.svg.svg#icon-close"></use>
           </svg>
         </button>
         <form class="form-modal">
-          <p class="title-modal">Оставте свои данные, мы вам перезвоним</p>
-          <label class="textarea-label"
+          <p class="form-modal__title">
+            Оставте свои данные, мы вам перезвоним
+          </p>
+          <label class="form-modal__label"
             >Имя
-            <span class="container-modal-form">
-              <input type="text" name="personal" class="modal-input" />
-              <svg width="18px" height="18px" class="icon-modal-form">
+            <span class="form-modal__container">
+              <input type="text" name="personal" class="form-modal__input" />
+              <svg width="18px" height="18px" class="form-modal__icon">
                 <use href="./img/sprite.svg.svg#icon-name"></use>
               </svg>
             </span>
           </label>
-          <label class="textarea-label"
+          <label class="form-modal__label"
             >Телефон
-            <span class="container-modal-form">
-              <input type="text" name="personal" class="modal-input" />
-              <svg width="18px" height="18px" class="icon-modal-form">
+            <span class="form-modal__container">
+              <input type="text" name="personal" class="form-modal__input" />
+              <svg width="18px" height="18px" class="form-modal__icon">
                 <use href="./img/sprite.svg.svg#icon-tel"></use>
               </svg>
             </span>
           </label>
 
-          <label class="textarea-label"
+          <label class="form-modal__label"
             >Почта
-            <span class="container-modal-form">
-              <input type="text" name="personal" class="modal-input" />
-              <svg width="18px" height="18px" class="icon-modal-form">
+            <span class="form-modal__container">
+              <input type="text" name="personal" class="form-modal__input" />
+              <svg width="18px" height="18px" class="form-modal__icon">
                 <use href="./img/sprite.svg.svg#icon-mail"></use>
               </svg>
             </span>
           </label>
 
-          <label class="textarea-label"
+          <label class="form-modal__label"
             >Комментарий
             <textarea
               name="comment "
-              class="modal-textarea"
+              class="form-modal__textarea"
               placeholder="Введите текст"
             ></textarea>
           </label>
@@ -517,13 +519,13 @@
             type="checkbox"
             id="akcept-polisy"
             required
-            class="modal-form-checkbox visually-hidden"
+            class="form-modal__checkbox form-modal__checkbox--visually-hidden"
           />
-          <label for="akcept-polisy" class="modal-form-checkbox-label"
+          <label for="akcept-polisy" class="form-modal__label-checkbox"
             >Соглашаюсь с рассылкой и принимаю&nbsp;
-            <a href="#" class="modal-link">Условия договора</a></label
+            <a href="#" class="form-modal__link">Условия договора</a></label
           >
-          <button type="submit">Отправить</button>
+          <button class="form-modal__button" type="submit">Отправить</button>
         </form>
       </div>
     </div>

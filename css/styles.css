@@ -83,6 +83,8 @@ header {
 }
 
 .logo {
+  width: 145px;
+  height: 31px;
   display: block;
   font-family: Raleway;
   font-weight: 700;
@@ -493,8 +495,6 @@ img {
 
 .logo--footer-flex {
   display: flex;
-  width: 145px;
-  height: 31px;
 }
 
 .logo__footer-container {

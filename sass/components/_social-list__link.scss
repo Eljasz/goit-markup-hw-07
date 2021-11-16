@@ -1,4 +1,4 @@
-.solial-list__link {
+.social-list__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -11,7 +11,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.solial-list__link:hover,
-.solial-list__link:focus {
+.social-list__link:hover,
+.socia-list__link:focus {
   background-color: var(--akcent-color);
 }

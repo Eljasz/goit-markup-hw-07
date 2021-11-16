@@ -1,6 +1,7 @@
 // base
 @import "./base/common";
 // components
+@import "./components/logo";
 
 @import "./components/work-list";
 
@@ -11,21 +12,22 @@
 @import "./components/team-list__title";
 
 @import "./components/social-list";
-@import "./components/solial-list__item";
+@import "./components/social-list__item";
 @import "./components/social-list__link";
-@import "./components/social-list__link";
+@import "./components/social-list__icon";
 
 @import "./components/customer";
 @import "./components/customer__title";
 @import "./components/customer__list";
 @import "./components/customer__link";
 @import "./components/customer__item";
-@import "./components/customer__icon";
+@import "./components/customer__link";
 
 @import "./components/container";
 @import "./components/section";
 // layout
 @import "./layout/header";
+@import "./layout/site-nav";
 // utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";

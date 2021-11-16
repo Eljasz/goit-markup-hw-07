@@ -1,0 +1,31 @@
+// base
+@import "./base/common";
+// components
+
+@import "./components/work-list";
+
+@import "./components/team-list";
+@import "./components/team-list__padding-container";
+@import "./components/team-list__description";
+@import "./components/team-list__item";
+@import "./components/team-list__title";
+
+@import "./components/social-list";
+@import "./components/solial-list__item";
+@import "./components/social-list__link";
+@import "./components/social-list__link";
+
+@import "./components/customer";
+@import "./components/customer__title";
+@import "./components/customer__list";
+@import "./components/customer__link";
+@import "./components/customer__item";
+@import "./components/customer__icon";
+
+@import "./components/container";
+@import "./components/section";
+// layout
+@import "./layout/header";
+// utils
+@import "./utils/variables";
+@import "./utils/visually-hidden";

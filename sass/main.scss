@@ -4,7 +4,9 @@
 @import "./components/logo";
 @import "./components/main-button";
 
+@import "./components/section";
 @import "./components/section__title";
+
 @import "./components/feature-list";
 @import "./components/feature-list__title";
 @import "./components/feature-list__item";
@@ -32,8 +34,16 @@
 @import "./components/customer__link";
 @import "./components/customer__item";
 @import "./components/customer__icon";
+
 @import "./components/container";
-@import "./components/section";
+
+@import "./components/grid";
+@import "./components/grid__item";
+@import "./components/grid__link";
+
+@import "./components/product";
+@import "./components/overlay";
+@import "./components/animation";
 @import "./components/modal__form";
 @import "./components/backdrop";
 // layout
@@ -41,6 +51,12 @@
 @import "./layout/site-nav";
 @import "./layout/auth-nav";
 @import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/address";
+@import "./layout/join";
+@import "./layout/form-footer";
+@import "./layout/site-nav-buttons";
+
 @import "./layout/modal";
 // utils
 @import "./utils/variables";

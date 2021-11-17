@@ -2,8 +2,18 @@
 @import "./base/common";
 // components
 @import "./components/logo";
+@import "./components/main-button";
+
+@import "./components/section__title";
+@import "./components/feature-list";
+@import "./components/feature-list__title";
+@import "./components/feature-list__item";
+@import "./components/feature-list__icon";
 
 @import "./components/work-list";
+@import "./components/work-list__item";
+@import "./components/work-list__img-container";
+@import "./components/work-list__description";
 
 @import "./components/team-list";
 @import "./components/team-list__padding-container";
@@ -21,13 +31,17 @@
 @import "./components/customer__list";
 @import "./components/customer__link";
 @import "./components/customer__item";
-@import "./components/customer__link";
-
+@import "./components/customer__icon";
 @import "./components/container";
 @import "./components/section";
+@import "./components/modal__form";
+@import "./components/backdrop";
 // layout
 @import "./layout/header";
 @import "./layout/site-nav";
+@import "./layout/auth-nav";
+@import "./layout/hero";
+@import "./layout/modal";
 // utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";

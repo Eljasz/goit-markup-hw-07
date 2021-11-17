@@ -1,4 +1,18 @@
-.work-list__description {
+.work {
+  margin-top: 50px;
+  display: flex;
+}
+.work__item {
+  width: 370px;
+  margin-right: 30px;
+}
+.work__item:nth-child(3n) {
+  margin-right: 0;
+}
+.work__img-container {
+  position: relative;
+}
+.work__description {
   bottom: 0px;
   position: absolute;
 

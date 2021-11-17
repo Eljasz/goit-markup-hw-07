@@ -3,45 +3,11 @@
 // components
 @import "./components/logo";
 @import "./components/main-button";
-
 @import "./components/section";
-@import "./components/section__title";
-
-@import "./components/feature-list";
-@import "./components/feature-list__title";
-@import "./components/feature-list__item";
-@import "./components/feature-list__icon";
-
-@import "./components/work-list";
-@import "./components/work-list__item";
-@import "./components/work-list__img-container";
-@import "./components/work-list__description";
-
-@import "./components/team-list";
-@import "./components/team-list__padding-container";
-@import "./components/team-list__description";
-@import "./components/team-list__item";
-@import "./components/team-list__title";
-
-@import "./components/social-list";
-@import "./components/social-list__item";
-@import "./components/social-list__link";
-@import "./components/social-list__icon";
-
-@import "./components/customer";
-@import "./components/customer__title";
-@import "./components/customer__list";
-@import "./components/customer__link";
-@import "./components/customer__item";
-@import "./components/customer__icon";
-
+@import "./components/social";
 @import "./components/container";
-
 @import "./components/grid";
-@import "./components/grid__item";
-@import "./components/grid__link";
-
-@import "./components/product";
+@import "./components/karta";
 @import "./components/overlay";
 @import "./components/animation";
 @import "./components/modal__form";
@@ -51,6 +17,10 @@
 @import "./layout/site-nav";
 @import "./layout/auth-nav";
 @import "./layout/hero";
+@import "./layout/feature";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/customer";
 @import "./layout/footer";
 @import "./layout/address";
 @import "./layout/join";

@@ -45,7 +45,7 @@
 .join__link:focus {
   background-color: var(--akcent-color);
 }
-.join__link:hover .social-list__icon,
-.join__link:focus .social-list__icon {
+.join__link:hover .social__icon,
+.join__link:focus .social__icon {
   fill: var(--background-color);
 }

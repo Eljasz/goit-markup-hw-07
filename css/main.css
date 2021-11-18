@@ -170,8 +170,8 @@ img {
   fill: var(--background-color);
 }
 
-.social__icon .join__link:hover .social__icon,
-.social__icon .join__link:focus .social__icon {
+.join__link:hover .social__icon,
+.join__link:focus .social__icon {
   fill: var(--background-color);
 }
 
@@ -851,8 +851,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join__link:hover,
-.join__link .join__link:focus {
+.join__link:hover, .join__link:focus {
   background-color: var(--akcent-color);
 }
 

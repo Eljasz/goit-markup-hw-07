@@ -47,8 +47,8 @@
       fill: var(--background-color);
     }
 
-    .join__link:hover .social__icon,
-    .join__link:focus .social__icon {
+    .join__link:hover &,
+    .join__link:focus & {
       fill: var(--background-color);
     }
   }

@@ -15,18 +15,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.hero__title {
-  margin: 0 auto;
-  margin-bottom: 30px;
-  width: 696px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 696px;
 
-  color: var(--background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--background-color);
+  }
 }

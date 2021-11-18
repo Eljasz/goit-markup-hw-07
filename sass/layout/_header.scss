@@ -1,11 +1,8 @@
-header {
+.header {
   border-bottom: 1px solid #ececec;
-}
-.container_header--flex {
-  display: flex;
-  align-items: center;
-}
-.header__nav {
-  display: flex;
-  align-items: center;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
 }

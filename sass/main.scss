@@ -10,7 +10,9 @@
 @import "./components/karta";
 @import "./components/overlay";
 @import "./components/animation";
+@import "./components/form-modal__label-checkbox";
 @import "./components/modal__form";
+@import "./components/modal";
 @import "./components/backdrop";
 // layout
 @import "./layout/header";
@@ -26,8 +28,6 @@
 @import "./layout/join";
 @import "./layout/form-footer";
 @import "./layout/site-nav-buttons";
-
-@import "./layout/modal";
 // utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";

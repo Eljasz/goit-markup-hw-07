@@ -3,24 +3,25 @@
   height: 100%;
   position: relative;
   overflow: hidden;
-}
-.overlay__description {
-  top: 0;
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-  color: var(--background-color);
-  padding: 63px 24px;
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(101%);
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.karta:hover .overlay__description,
-.karta:focus .overlay__description {
-  transform: translateY(0);
+  &__description {
+    top: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--background-color);
+    padding: 63px 24px;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .karta:hover &__description,
+  .karta:focus &__description {
+    transform: translateY(0);
+  }
 }

@@ -16,11 +16,12 @@
 
   color: var(--background-color);
   background-color: var(--akcent-color);
-}
-.main-button:hover,
-.main-button:focus {
-  animation-name: changeBgColor;
-  animation-duration: 3000ms;
-  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-iteration-count: infinite;
+
+  &:hover,
+  &:focus {
+    animation-name: changeBgColor;
+    animation-duration: 3000ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-iteration-count: infinite;
+  }
 }

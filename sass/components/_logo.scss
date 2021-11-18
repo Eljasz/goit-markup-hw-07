@@ -7,11 +7,11 @@
   font-size: 26px;
   line-height: 1.19;
   color: var(--akcent-color);
-}
 
-.logo__container-header {
-  color: #000000;
-}
-.logo__container-footer {
-  color: var(--background-color);
+  &__container-header {
+    color: #000000;
+  }
+  &__container-footer {
+    color: var(--background-color);
+  }
 }

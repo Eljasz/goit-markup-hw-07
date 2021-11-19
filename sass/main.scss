@@ -1,3 +1,7 @@
+// utils
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
 // base
 @import "./base/common";
 // components
@@ -28,6 +32,3 @@
 @import "./layout/join";
 @import "./layout/form-footer";
 @import "./layout/site-nav-buttons";
-// utils
-@import "./utils/variables";
-@import "./utils/visually-hidden";

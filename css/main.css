@@ -1,4 +1,29 @@
 @charset "UTF-8";
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --akcent-color: #2196f3;
+  --background-color: #fff;
+  --background-color-section: #2f303a;
+  --buttoms-portfolio-background: #f5f4fa;
+  --background-main-portf: #e5e5e5;
+  --icon-color: #afb1b8;
+}
+
+/* класс для правильного скрытия*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -151,10 +176,6 @@ img {
 }
 
 .social__link:focus, .social__link:hover {
-  background-color: var(--akcent-color);
-}
-
-.social__link:hover, .social__link:focus {
   background-color: var(--akcent-color);
 }
 
@@ -321,6 +342,10 @@ img {
   line-height: 1.16;
 }
 
+.form-modal__label:nth-child(n + 3) {
+  margin-top: 10px;
+}
+
 .form-modal__title {
   margin-bottom: 12px;
   font-weight: 700;
@@ -368,10 +393,6 @@ img {
   line-height: 1.6;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.form-modal__label:nth-child(n + 3) {
-  margin-top: 10px;
 }
 
 .form-modal__link {
@@ -566,16 +587,16 @@ img {
   color: var(--akcent-color);
 }
 
-.auth-nav__icon:hover, .auth-nav__icon:focus {
-  fill: var(--akcent-color);
-}
-
 .auth-nav__icon {
   fill: currentColor;
   margin-right: 10px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-nav__icon:hover, .auth-nav__icon:focus {
+  fill: var(--akcent-color);
 }
 
 .hero {
@@ -954,30 +975,5 @@ img {
 
 .site-nav-buttons__item:nth-child(5n) {
   margin-right: 0px;
-}
-
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --akcent-color: #2196f3;
-  --background-color: #fff;
-  --background-color-section: #2f303a;
-  --buttoms-portfolio-background: #f5f4fa;
-  --background-main-portf: #e5e5e5;
-  --icon-color: #afb1b8;
-}
-
-/* класс для правильного скрытия*/
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

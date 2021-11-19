@@ -12,12 +12,11 @@
   &--outline {
     outline: 2px solid white;
   }
-
-  &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: Center;
-    color: var(--title-text-color);
-  }
+}
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: Center;
+  color: var(--title-text-color);
 }

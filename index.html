@@ -21,8 +21,7 @@
   </head>
   <body>
     <header class="header">
-      <section></section>
-      <div class="container container--header-flex">
+      <div class="container container__header">
         <nav class="header__nav">
           <a class="logo" href="#/"
             >Web<span class="logo__container-header">Studio</span>
@@ -68,18 +67,18 @@
           <h1 class="hero__title">
             Эфективные решения<br />для вашего бизнеса
           </h1>
-          <button class="main-button" type="button" data-modal-open>
+          <button class="hero__button" type="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
       <!-- преимущества -->
-      <section class="section section--outline">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature">
             <li class="feature__item">
-              <div class="feature__icon">
+              <div class="feature__icon-container">
                 <svg width="70" height="70">
                   <use href="./img/sprite.svg.svg#icon-antenna"></use>
                 </svg>
@@ -92,7 +91,7 @@
             </li>
 
             <li class="feature__item">
-              <div class="feature__icon">
+              <div class="feature__icon-container">
                 <svg width="70" height="70">
                   <use href="./img/sprite.svg.svg#icon-clock"></use>
                 </svg>
@@ -105,7 +104,7 @@
             </li>
 
             <li class="feature__item">
-              <div class="feature__icon">
+              <div class="feature__icon-container">
                 <svg width="70" height="70">
                   <use href="./img/sprite.svg.svg#icon-diagram"></use>
                 </svg>
@@ -117,7 +116,7 @@
               </p>
             </li>
             <li class="feature__item">
-              <div class="feature__icon">
+              <div class="feature__icon-container">
                 <svg width="70" height="70">
                   <use href="./img/sprite.svg.svg#icon-astronaut"></use>
                 </svg>
@@ -132,7 +131,7 @@
         </div>
       </section>
 
-      <section class="section section--zero-padding">
+      <section class="section section--zero-padding-top">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся?</h2>
           <ul class="work">
@@ -176,7 +175,7 @@
           <ul class="team">
             <li class="team__item">
               <img width="270" src="./img/img(1).jpg" alt="Project-Designer" />
-              <div class="team__padding-container">
+              <div class="team__container">
                 <h3 class="team__title">Игорь Демьяненко</h3>
                 <p class="team__description">Product Designer</p>
                 <ul class="social">
@@ -218,7 +217,7 @@
                 src="./img/img(2).jpg"
                 alt="Frontend-Developer"
               />
-              <div class="team__padding-container">
+              <div class="team__container">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__description">Frontend Developer</p>
                 <ul class="social">
@@ -256,7 +255,7 @@
 
             <li class="team__item">
               <img width="270" src="./img/img(3).jpg" alt="Marketmeneger" />
-              <div class="team__padding-container">
+              <div class="team__container">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__description">Marketing</p>
                 <ul class="social">
@@ -294,7 +293,7 @@
 
             <li class="team__item">
               <img width="270" src="./img/img(4).jpg" alt="UI-Designer" />
-              <div class="team__padding-container">
+              <div class="team__container">
                 <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__description">UI Designer</p>
                 <ul class="social">
@@ -383,7 +382,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container container--footer-flex">
+      <div class="container container__footer">
         <div class="address">
           <a class="logo logo--footer-flex" href="#/"
             >Web<span class="logo__container-footer">Studio</span></a

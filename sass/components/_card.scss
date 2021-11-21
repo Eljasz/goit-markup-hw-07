@@ -1,4 +1,4 @@
-.karta {
+.card {
   cursor: pointer;
   display: block;
   transition-property: box-shadow;
@@ -11,14 +11,14 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
-.karta__thumb {
+.card__thumb {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
-.karta__title {
+.card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -27,7 +27,7 @@
   color: #212121;
 }
 
-.karta__description {
+.card__description {
   font-style: Regular;
   font-weight: 400;
   font-size: 16px;

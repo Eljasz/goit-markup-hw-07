@@ -1,9 +1,9 @@
-.site-nav-buttons {
+.filter {
   justify-content: center;
   display: flex;
   margin-bottom: 50px;
 }
-.site-nav-buttons__button {
+.filter__button {
   font-weight: 700;
   border: transparent;
   min-width: 73px;
@@ -28,7 +28,7 @@
     background-color: var(--akcent-color);
   }
 }
-.site-nav-buttons__item {
+.filter__item {
   border-radius: 4px;
   margin-right: 8px;
   background-color: var(--buttoms-portfolio-background);

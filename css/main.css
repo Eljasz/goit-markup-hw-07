@@ -95,16 +95,14 @@ img {
   color: var(--background-color);
 }
 
-.main-button {
+.hero__button {
   border: transparent;
-  min-width: 200px;
   margin: 0 auto;
   padding: 10px 32px;
   border-radius: 6px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -113,7 +111,7 @@ img {
   background-color: var(--akcent-color);
 }
 
-.main-button:hover, .main-button:focus {
+.hero__button:hover, .hero__button:focus {
   animation-name: changeBgColor;
   animation-duration: 3000ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -124,17 +122,13 @@ img {
   padding: 94px 0;
 }
 
-.section--zero-padding {
+.section--zero-padding-top {
   padding-top: 0;
 }
 
 .section--team-color {
   padding-bottom: 94px;
   background-color: #f5f4fa;
-}
-
-.section--outline {
-  outline: 2px solid white;
 }
 
 .section__title {
@@ -203,12 +197,12 @@ img {
   margin: 0 auto;
 }
 
-.container--header-flex {
+.container__header {
   display: flex;
   align-items: center;
 }
 
-.container--footer-flex {
+.container__footer {
   display: flex;
   align-items: baseline;
   justify-content: center;
@@ -230,7 +224,7 @@ img {
   margin-bottom: 0;
 }
 
-.karta {
+.card {
   cursor: pointer;
   display: block;
   transition-property: box-shadow;
@@ -238,18 +232,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.karta:hover, .karta:focus {
+.card:hover, .card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.karta__thumb {
+.card__thumb {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
-.karta__title {
+.card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -257,7 +251,7 @@ img {
   color: #212121;
 }
 
-.karta__description {
+.card__description {
   font-style: Regular;
   font-weight: 400;
   font-size: 16px;
@@ -288,8 +282,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.karta:hover .overlay__description,
-.karta:focus .overlay__description {
+.card:hover .overlay__description,
+.card:focus .overlay__description {
   transform: translateY(0);
 }
 
@@ -595,7 +589,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.auth-nav__icon:hover, .auth-nav__icon:focus {
+.auth-nav__link:hover .auth-nav__icon,
+.auth-nav__link:focus .auth-nav__icon {
   fill: var(--akcent-color);
 }
 
@@ -653,7 +648,7 @@ img {
   margin-right: 0;
 }
 
-.feature__icon {
+.feature__icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -724,7 +719,7 @@ img {
   margin-right: 0;
 }
 
-.team__padding-container {
+.team__container {
   padding: 30px 0;
 }
 
@@ -940,13 +935,13 @@ img {
   fill: var(--background-color);
 }
 
-.site-nav-buttons {
+.filter {
   justify-content: center;
   display: flex;
   margin-bottom: 50px;
 }
 
-.site-nav-buttons__button {
+.filter__button {
   font-weight: 700;
   border: transparent;
   min-width: 73px;
@@ -961,19 +956,19 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-buttons__button:focus, .site-nav-buttons__button:hover {
+.filter__button:focus, .filter__button:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--background-color);
   background-color: var(--akcent-color);
 }
 
-.site-nav-buttons__item {
+.filter__item {
   border-radius: 4px;
   margin-right: 8px;
   background-color: var(--buttoms-portfolio-background);
 }
 
-.site-nav-buttons__item:nth-child(5n) {
+.filter__item:nth-child(5n) {
   margin-right: 0px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,12 +6,12 @@
 @import "./base/common";
 // components
 @import "./components/logo";
-@import "./components/main-button";
+@import "./components/hero-button";
 @import "./components/section";
 @import "./components/social";
 @import "./components/container";
 @import "./components/grid";
-@import "./components/karta";
+@import "./components/card";
 @import "./components/overlay";
 @import "./components/animation";
 @import "./components/form-modal__label-checkbox";
@@ -31,4 +31,4 @@
 @import "./layout/address";
 @import "./layout/join";
 @import "./layout/form-footer";
-@import "./layout/site-nav-buttons";
+@import "./layout/filter";
